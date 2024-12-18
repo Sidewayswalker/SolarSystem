@@ -1,0 +1,56 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* General styles for all elements with black background */
+header, blockquote, .funFacts {
+  display: inline-block; /* Resize background to fit content */
+  text-align: center; /* Center text */
+  background: rgb(0, 0, 0, 0.4); /* Black background */
+  color: white; /* Ensures text is visible on black background */
+  padding: 20px 30px; /* Add breathing space around the text */
+  margin: 0 auto 50px; /* Center horizontally and add bottom spacing */
+  max-width: 80%; /* Prevent the background from getting too wide */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-sizing: border-box; /* Padding included in width calculations */
+}
+
+/* Specific styling for header */
+header {
+  font-size: 28px;
+  margin-bottom: 100px; /* Adjusted spacing below */
+}
+
+/* Specific styling for blockquote */
+blockquote {
+  font-size: 26px;
+  margin-bottom: 80px; /* Adjust spacing below blockquote */
+  font-style: italic; /* Optional: makes blockquotes stand out */
+}
+
+/* Specific styling for funFacts */
+.funFacts {
+  font-size: 26px;
+  color: white; /* Retains light text color */
+  margin-bottom: 50px; /* Adds spacing below */
+}
+
+
+.funFacts p {
+  padding-top: 20px;
+  
+}
